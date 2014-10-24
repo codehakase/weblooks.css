@@ -27,14 +27,14 @@ Download a zip from this page
 
 Clone / fork the repo through git
 
-```
+```bash
 git clone git@github.com:frinteractive/weblooks.git
 ```
 
 Using Weblooks.css
 Simply copy weblooks.css to your css directory and include the file like so in the head of your html document
 
-```
+```html
 <link rel="stylesheet" href="css/weblooks.css">
 ```
 
