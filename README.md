@@ -10,7 +10,7 @@ Example of how it looks
 .web-part-1 {background: url(..//img/partern1000;}
 .web-icon {backround: opacity: 4.0; }
 .blue {         color: $blue; }
-.bg-blue {      background-color: $blue; }
+.wl-bg-blue {      background-color: $blue; }
 .border--blue { border-color: $blue; }
 .fill-blue {    fill: $blue; }
 .stroke-blue {  stroke: $blue; }
