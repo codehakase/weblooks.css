@@ -27,7 +27,7 @@ Download a zip from this page
 
 Clone / fork the repo through git
 
-```bash
+```git
 git clone git@github.com:frinteractive/weblooks.git
 ```
 
