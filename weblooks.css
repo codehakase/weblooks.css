@@ -1,16 +1,194 @@
+/*
+*WEBLOOKS.CSS V1.0.0 CREATED BY FRANCIS SUNDAY (Developer)
+*EMAIL: francis.sunday@outlook.com
+*PHONE: + 234 807 261 1343
+* Code licensed under the Apache License v2.0.
 
-/* Weblooks.css v1.0.0 (http://weblooks.frinteractives.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
-	*Copyright 2014 FR Interactives Inc.
-	Arthur: 			FR Interactives + Francis Sunday (Frankcute) With MRMRS
-	URl: 				http://www.frinteractives.com
+Copyright 2014 FR Interactives 
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
 */
 
+/*==========Patterns Starts Here============*/
+.beauty {
+background-color: #fff; 
+background-image: 
+linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+linear-gradient(#eee .1em, transparent .1em);
+background-size: 100% 1.2em;
+}
 
-/* Borders
-eg .border { border-width: 1px; border-style: solid; }
-*/
+.badoo {
+
+background-color: gray;
+background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+background-size: 50px 50px;
+}
+
+.badoo {
+
+background-color: black;
+background-image: linear-gradient(90deg, transparent 50%, rgba(275,205,251,.5) 50%);
+background-size: 50px 50px;
+}
+
+
+/*=======Background colors and colors starts Here======*/
+.azure{background: color:	#F0FFFF;}
+.beige {background: color: #F5F5DC;}
+.bisque  {background: color:	#FFE4C4;}	 
+.black  {background: color: #000000;} 	 
+.blanchedalmond {background: color: #FFEBCD;} 	 
+.blue {background: color:#0000FF;}	 
+.blueViolet {background: color:#8A2BE2;} 	 
+.brown {background: color: #A52A2A;} 	 
+.burlywood {background: color:#DEB887;} 	 
+.cadetblue {background: color: #5F9EA0;}
+.chartreuse {background: color: #7FFF00;} 	 
+.chocolate { background : #FFF8DC; color:#D2691E;} 	 
+.coral {background: color: 	#FF7F50;}
+.cornflowerBlue  {background: color:	#6495ED ;} 
+.cornsilk  	{background: color:#FFF8DC ;}	 
+.crimson {background: color: #DC143C;} 	 
+.cyan  {background: color: #00FFFF;}
+.darkBlue {background: color: #00008B;} 	 
+.darkCyan  {background: color: #008B8B ;} 
+.darkGoldenRod  {background: color:	#B8860B ;}
+ 
+.darkGrey {background: color: #A9A9A9;}	 
+.darkGreen {background: color:	#006400;} 	 
+.darkKhaki {background: color: #BDB76B;} 	 
+.darkMagenta {background: color: #8B008B ;}	 
+.darkOliveGreen  {background: color: #556B2F;} 	 
+.darkorange  {background: color: 	#FF8C00 ;}	 
+.darkOrchid  {background: color: #9932CC;} 	 
+.darkRed {background: color: #8B0000;} 	 
+.darkSalmon  	{background: color: #E9967A ;}	 
+.darkSeaGreen  {background: color: #8FBC8F;} 	 
+.darkSlateBlue {background: color:	#483D8B;} 	 
+.darkSlateGray  	{background: color: #2F4F4F ;}
+.darkSlateGrey  {background: color: #2F4F4F ;}	 
+.darkTurquoise {background: color: #00CED1;} 	 
+.darkViolet {background: color:	#9400D3 ;}	 
+.deepPink  	{background: color: #FF1493;} 	 
+.deepSkyBlue  {background: color: #00BFFF;} 	 
+.dimGray {background: color: #696969;} 	 
+.dimGrey  {background: color:	#696969 ;}	 
+.dodgerBlue  	{background: color: #1E90FF} 	 
+.fireBrick  	{background: color: #B22222;} 	 
+.floralWhite  	{background: color: #FFFAF0;} 	 
+.forestGreen  	{background: color: #228B22;}
+.fuchsia  {background: color:	#FF00FF;}	 
+.gainsboro  	{background: color: #DCDCDC;} 	 
+.ghostWhite  	{background: color: #F8F8FF;} 	 
+.gold  {background: color:	#FFD700;} 	 
+.goldenRod  {background: color: #DAA520;} 	 
+.gray  	{background: color: #808080;} 	 
+.grey  	{background: color: #808080 ;}	 
+.green  	{background: color: #008000;} 	 
+.greenYellow  	{background: color: #ADFF2F;} 	 
+.honeyDew  	{background: color: #F0FFF0;} 	 
+.hotPink  	{background: color: #FF69B4;} 	 
+.indianRed   {background: color: #CD5C5C;} 	 
+.indigo   	{background: color: #4B0082;} 	 
+.ivory  	{background: color: #FFFFF0;} 	 
+.khaki  	{background: color: #F0E68C;} 	 
+.lavender  	{background: color: #E6E6FA;} 	 
+.lavenderBlush  	{background: color: #FFF0F5;} 	 
+.lawnGreen  {background: color: #7CFC00;} 	 
+.lemonChiffon  	{background: color: #FFFACD;} 	 
+.lightBlue  	{background: color: #ADD8E6 ;}	 
+.lightCoral  	{background: color: #F08080;} 	 
+.lightCyan  	{background: color: #E0FFFF;} 	 
+.lightGoldenRodYellow  	{background: color: #FAFAD2;} 	 
+.lightGray  	{background: color: #D3D3D3;} 	 
+.lightGrey  	{background: color: #D3D3D3;} 	 
+.lightGreen  	{background: color: #90EE90 ;}	 
+.lightPink  	{background: color: #FFB6C1;} 	 
+.lightSalmon  	{background: color: #FFA07A;}	 
+.lightSeaGreen  	{background: color: #20B2AA;} 	 
+.lightSkyBlue  	{background: color: #87CEFA;} 	 
+.lightSlateGray  	{background: color: #778899;} 	 
+.lightSlateGrey  	{background: color: #778899;}	 
+.lightSteelBlue  	{background: color: #B0C4DE;} 	 
+.lightYellow  {background: color: #FFFFE0;} 	 
+.lime  	{background: color: #00FF00;} 	 
+.limeGreen  	{background: color: #32CD32;} 	 
+.linen  	{background: color: #FAF0E6;} 	 
+.magenta  	{background: color: #FF00FF;} 	 
+.maroon  	{background: color: #800000;} 	 
+.mediumAquaMarine  	{background: color: #66CDAA;} 	 
+.mediumBlue  	{background: color: #0000CD;} 	 
+.mediumOrchid  	{background: color: #BA55D3;}	 
+.mediumPurple  	{background: color: #9370D8;} 	 
+.mediumSeaGreen  	{background: color: #3CB371;} 	 
+.mediumSlateBlue  	{background: color: #7B68EE;} 	 
+.mediumSpringGreen  	{background: color: #00FA9A;} 	 
+.mediumTurquoise  	{background: color: #48D1CC;} 	 
+.mediumVioletRed  	{background: color: #C71585;} 	 
+.midnightBlue  	{background: color: #191970;} 	 
+.mintCream  	{background: color: #F5FFFA} 	 
+.mistyRose  	{background: color: #FFE4E1;} 	 
+.moccasin  	{background: color: #FFE4B5;} 	 
+.navajoWhite  	{background: color: #FFDEAD;}	 
+.navy  	{background: color: #000080;} 	 
+.oldLace  	{background: color: #FDF5E6;} 	 
+.olive  	{background: color: #808000;} 	 
+.oliveDrab  	{background: color: #6B8E23;} 	 
+.orange  	{background: color: #FFA500;} 	 
+.orangeRed  	{background: color: #FF4500;}	 
+.orchid  		{background: color: #DA70D6;}	 
+.paleGoldenRod  		{background: color: #EEE8AA;} 	 
+.paleGreen  		{background: color: #98FB98;} 	 
+.paleTurquoise  		{background: color: #AFEEEE;} 	 
+.paleVioletRed  		{background: color: #D87093;} 	 
+.papayaWhip  		{background: color: #FFEFD5;} 	 
+.peachPuff  		{background: color: #FFDAB9;} 	 
+.peru  		{background: color: #CD853F;} 	 
+.pink  		{background: color: #FFC0CB;} 	 
+.plum  		{background: color: #DDA0DD;} 	 
+.powderBlue  		{background: color: #B0E0E6;}	 
+.purple  		{background: color: #800080;} 	 
+.red  		{background: color: #FF0000;} 	 
+.rosyBrown  	{background: color: #BC8F8F;} 	 
+.royalBlue  		{background: color: #4169E1;} 	 
+.saddleBrown  	{background: color:	#8B4513;} 	 
+.salmon  	{background: color:	#FA8072;} 	 
+.sandyBrown  		{background: color: #F4A460 ;}	 
+.seaGreen  		{background: color: #2E8B57 ;}	 
+.seaShell  		{background: color: #FFF5EE;} 
+.sienna  		{background: color: #A0522D;}	 
+.silver  		{background: color: #C0C0C0;} 	 
+.skyBlue  		{background: color: #87CEEB;} 	 
+.slateBlue  		{background: color: #6A5ACD;} 	 
+.slateGray  		{background: color: #708090;}	 
+.slateGrey  		{background: color: #708090;} 
+.snow  		{background: color: #FFFAFA;}	 
+.springGreen  		{background: color: #00FF7F;} 	 
+.steelBlue  		{background: color: #4682B4;} 	 
+.tan  		{background: color: #D2B48C;} 	 
+.teal  		{background: color: #008080;} 	 
+.thistle  		{background: color: #D8BFD8;} 	 
+.tomato  		{background: color: #FF6347;} 	 
+.turquoise  		{background: color: #40E0D0;} 	 
+.violet  		{background: color: #EE82EE;} 	 
+.wheat  		{background: color: #F5DEB3;} 	 
+.white  		{background: color: #FFFFFF;} 	 
+.whiteSmoke  		{background: color: #F5F5F5;} 	 
+.yellow  		{background: color: #FFFF00;} 	 
+.yellowGreen  		{background: color: #9ACD32;}
+
+/*========Border and Stroke Fills Starts Here=========*/
 .border--navy {
 border-color: #001F3F; }
 .border--blue {
@@ -45,7 +223,19 @@ border-color: #aaa; }
 border-color: #ddd; }
 .border--black {
 border-color: #111; }
+
 /* Fills for SVG */
+
+.fill-purple {
+fill: #B10DC9; }
+.fill-maroon {
+fill: #85144B; }
+.fill-white {
+fill: #fff; }
+.fill-gray {
+fill: #aaa; }
+.fill-silver {
+fill: #ddd; }
 .fill-navy {
 fill: #001F3F; }
 .fill-blue {
@@ -68,19 +258,23 @@ fill: #FF851B; }
 fill: #FF4136; }
 .fill-fuchsia {
 fill: #F012BE; }
-.fill-purple {
-fill: #B10DC9; }
-.fill-maroon {
-fill: #85144B; }
-.fill-white {
-fill: #fff; }
-.fill-gray {
-fill: #aaa; }
-.fill-silver {
-fill: #ddd; }
 .fill-black {
 fill: #111; }
 /* Strokes for SVG */
+
+.stroke-yellow {
+stroke: #FFDC00; }
+.stroke-orange {
+stroke: #FF851B; }
+.stroke-red {
+stroke: #FF4136; }
+.stroke-fuchsia {
+stroke: #F012BE; }
+.stroke-purple {
+stroke: #B10DC9; }
+.stroke-maroon {
+stroke: #85144B; }
+
 .stroke-navy {
 stroke: #001F3F; }
 .stroke-blue {
@@ -95,18 +289,6 @@ stroke: #3D9970; }
 stroke: #2ECC40; }
 .stroke-lime {
 stroke: #01FF70; }
-.stroke-yellow {
-stroke: #FFDC00; }
-.stroke-orange {
-stroke: #FF851B; }
-.stroke-red {
-stroke: #FF4136; }
-.stroke-fuchsia {
-stroke: #F012BE; }
-.stroke-purple {
-stroke: #B10DC9; }
-.stroke-maroon {
-stroke: #85144B; }
 .stroke-white {
 stroke: #fff; }
 .stroke-gray {
@@ -117,40 +299,14 @@ stroke: #ddd; }
 stroke: #111; }
 /*
 SKINS
-* Backgrounds
-*Colors
-* Border colors
-* SVG fills
-*SVG Strokes
-* Name it
+
 */
 /* Backgrounds */
 .bg-navy {
 background-color: #001F3F; }
 .bg-blue {
 background-color: #0074D9; }
-.bg-aqua {
-background-color: #7FDBFF; }
-.bg-teal {
-background-color: #39CCCC; }
-.bg-olive {
-background-color: #3D9970; }
-.bg-green {
-background-color: #2ECC40; }
-.bg-lime {
-background-color: #01FF70; }
-.bg-yellow {
-background-color: #FFDC00; }
-.bg-orange {
-background-color: #FF851B; }
-.bg-red {
-background-color: #FF4136; }
-.bg-fuchsia {
-background-color: #F012BE; }
-.bg-purple {
-background-color: #B10DC9; }
-.bg-maroon {
-background-color: #85144B; }
+
 .bg-white {
 background-color: #fff; }
 .bg-gray {
@@ -188,109 +344,81 @@ color: #B10DC9; }
 color: #85144B; }
 .white {
 color: #fff; }
+.bg-aqua {
+background-color: #7FDBFF; }
+.bg-teal {
+background-color: #39CCCC; }
+.bg-olive {
+background-color: #3D9970; }
+.bg-green {
+background-color: #2ECC40; }
+.bg-lime {
+background-color: #01FF70; }
+.bg-yellow {
+background-color: #FFDC00; }
+.bg-orange {
+background-color: #FF851B; }
+.bg-red {
+background-color: #FF4136; }
+.bg-fuchsia {
+background-color: #F012BE; }
+.bg-purple {
+background-color: #B10DC9; }
+.bg-maroon {
+background-color: #85144B; }
 .silver {
 color: #ddd; }
 .gray {
 color: #aaa; }
 .black {
 color: #111; }
-
-
 /*More */
+.border--orange{border-color:#FF851B}.border--red{border-color:#FF4136}
+.border--fuchsia{border-color:#F012BE}.border--purple{border-color:#B10DC9}
+.border--maroon{border-color:#85144B}.border--white{border-color:#fff}
+.border--gray{border-color:#aaa}
 .bg-navy{background-color:#001F3F}
-
 .bg-blue{background-color:#0074D9}
-
 .bg-aqua{background-color:#7FDBFF}
-
 .bg-teal{background-color:#39CCCC}
-
 .bg-olive{background-color:#3D9970}
-
 .bg-green{background-color:#2ECC40}
-
 .bg-lime{background-color:#01FF70}
 .bg-yellow{background-color:#FFDC00}
-
 .bg-orange{background-color:#FF851B}
-
 .bg-red{background-color:#FF4136}
-
 .bg-fuchsia{background-color:#F012BE}
 .bg-purple{background-color:#B10DC9}
-
 .bg-maroon{background-color:#85144B}
-
 .bg-white{background-color:#fff}
-
 .bg-gray{background-color:#aaa}
-
 .bg-silver{background-color:#ddd}
-
 .bg-black{background-color:#111}
-
 .navy{color:#001F3F}.blue{color:#0074D9}
-
 .aqua{color:#7FDBFF}.teal{color:#39CCCC}
-
 .olive{color:#3D9970}.green{color:#2ECC40}.lime{color:#01FF70}
-
 .yellow{color:#FFDC00}.orange{color:#FF851B}
-
 .red{color:#FF4136}.fuchsia{color:#F012BE}
-
 .purple{color:#B10DC9}.maroon{color:#85144B}
-
 .white{color:#fff}.silver{color:#ddd}.gray{color:#aaa}
-
 .black{color:#111}.border--navy{border-color:#001F3F}
-
 .border--blue{border-color:#0074D9}.border--aqua{border-color:#7FDBFF}
-
 .border--teal{border-color:#39CCCC}.border--olive{border-color:#3D9970}
-
 .border--green{border-color:#2ECC40}
-
 .border--lime{border-color:#01FF70}.border--yellow{border-color:#FFDC00}
 
-.border--orange{border-color:#FF851B}.border--red{border-color:#FF4136}
-
-.border--fuchsia{border-color:#F012BE}.border--purple{border-color:#B10DC9}
-
-.border--maroon{border-color:#85144B}.border--white{border-color:#fff}
-
-.border--gray{border-color:#aaa}
-.border--silver{border-color:#ddd}.border--black{border-color:#111}
-
-.fill-navy{fill:#001F3F}.fill-blue{fill:#0074D9}.fill-aqua{fill:#7FDBFF}
-
-.fill-teal{fill:#39CCCC}.fill-olive{fill:#3D9970}.fill-green{fill:#2ECC40}
-
-.fill-lime{fill:#01FF70}.fill-yellow{fill:#FFDC00}.fill-orange{fill:#FF851B}
-
-.fill-red{fill:#FF4136}.fill-fuchsia{fill:#F012BE}.fill-purple{fill:#B10DC9}
-
-.fill-maroon{fill:#85144B}.fill-white{fill:#fff}.fill-gray{fill:#aaa}
-
-.fill-silver{fill:#ddd}.fill-black{fill:#111}.stroke-navy{stroke:#001F3F}
-
 .stroke-blue{stroke:#0074D9}.stroke-aqua{stroke:#7FDBFF}
-
 .stroke-teal{stroke:#39CCCC}.stroke-olive{stroke:#3D9970}
-
 .stroke-green{stroke:#2ECC40}.stroke-lime{stroke:#01FF70}
-
 .stroke-yellow{stroke:#FFDC00}.stroke-orange{stroke:#FF851B}
-
 .stroke-red{stroke:#FF4136}.stroke-fuchsia{stroke:#F012BE}
-
 .stroke-purple{stroke:#B10DC9}.stroke-maroon{stroke:#85144B}
-
 .stroke-white{stroke:#fff}.stroke-gray{stroke:#aaa}.stroke-silver{stroke:#ddd}.stroke-black{stroke:#111}
-
-
-
-
-
-
+.border--silver{border-color:#ddd}.border--black{border-color:#111}
+.fill-navy{fill:#001F3F}.fill-blue{fill:#0074D9}.fill-aqua{fill:#7FDBFF}
+.fill-teal{fill:#39CCCC}.fill-olive{fill:#3D9970}.fill-green{fill:#2ECC40}
+.fill-lime{fill:#01FF70}.fill-yellow{fill:#FFDC00}.fill-orange{fill:#FF851B}
+.fill-red{fill:#FF4136}.fill-fuchsia{fill:#F012BE}.fill-purple{fill:#B10DC9}
+.fill-maroon{fill:#85144B}.fill-white{fill:#fff}.fill-gray{fill:#aaa}
+.fill-silver{fill:#ddd}.fill-black{fill:#111}.stroke-navy{stroke:#001F3F}
 
