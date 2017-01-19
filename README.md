@@ -27,12 +27,13 @@ Download a zip from this page
 
 Clone / fork the repo through git
 
-```git ssh
+```git
 git clone git@github.com:code/weblooks.git
 ```
 
-```
-  using https
+or
+
+```git
   git clone https://github.com/codehakase/weblooks.git
 ```
 
