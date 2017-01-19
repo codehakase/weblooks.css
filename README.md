@@ -51,7 +51,6 @@ Simply copy weblooks.css to your css directory and include the file like so in t
 
 ## Credits
 
-- [CareerGuru99](http://career.guru99.com/top-100-php-interview-questions-answers/)
 - [Francis Sunday](https://twitter.com/iamfrankcute)
 
 
