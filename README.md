@@ -30,6 +30,7 @@ Clone / fork the repo through git
 ```git ssh
 git clone git@github.com:code/weblooks.git
 ```
+
 ```
   using https
   git clone https://github.com/codehakase/weblooks.git
@@ -37,6 +38,7 @@ git clone git@github.com:code/weblooks.git
 
 Using Weblooks.css
 Simply copy weblooks.css to your css directory and include the file like so in the head of your html document
+
 
 ```html
 <link rel="stylesheet" href="css/weblooks.css">
