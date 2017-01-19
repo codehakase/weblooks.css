@@ -27,8 +27,12 @@ Download a zip from this page
 
 Clone / fork the repo through git
 
-```git
-git clone git@github.com:frinteractive/weblooks.git
+```git ssh
+git clone git@github.com:code/weblooks.git
+```
+```
+  using https
+  git clone https://github.com/codehakase/weblooks.git
 ```
 
 Using Weblooks.css
@@ -42,16 +46,35 @@ Simply copy weblooks.css to your css directory and include the file like so in t
 
 
 
-This is a Css File that will contain thousands of background colors, patterns, and other things that have to do with your web styling
+## Credits
 
-# Authors
-[FR Interactives + Francis Sunday(Frankcute)](http://www.facebook.com/frankcuteiw "Francis Sunday - Designer + Developer in NIgeria, Africa")
+- [CareerGuru99](http://career.guru99.com/top-100-php-interview-questions-answers/)
+- [Francis Sunday](https://twitter.com/iamfrankcute)
+
+
+
+## Contributing
+
+Please feel free to fork this package and contribute by submitting a pull request to add to the list of questions or to make some corrections to them.
+
+
+## Feel like thanking me?
+
+Why not star the github repo? I'd love the attention! Why not share the link for this repository on Twitter or Facebook? Spread the word!
+
+and also, [follow me on twitter](https://twitter.com/iamfrankcute)!
+
+Thanks!
+
+### Francis Sunday.
+
+
 
 
 # License
 
 ```
-Copyright 2014 FR Interactives + Frankcute
+Copyright 2014 - 2017 Codehakase
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -66,6 +89,3 @@ See the License for the specific language governing permissions and
 limitations under the License.
 
 ```
-if you appreciate this prooject or you would like to support you can let me know by sending me a mail on francis.sunday@outlook.com or call (+) 234 807 261 1343. 
-
-made with love in Nigeria 
