@@ -1,4 +1,4 @@
-Introducing weblooks.css. A collection of several css skin classes, patterns and more to use while you do your prototyping.
+Introducing weblooks.css. A collection of several CSS skin classes, patterns and more to use while you do your prototyping.
  weblooks.css
 ============
 
@@ -25,13 +25,8 @@ installing Weblooks is Easy. You can get the code a few different ways
 
 Download a zip from this page
 
-Clone / fork the repo through git
+install
 
-```git
-git clone git@github.com:code/weblooks.git
-```
-
-or
 
 ```git
   git clone https://github.com/codehakase/weblooks.git
