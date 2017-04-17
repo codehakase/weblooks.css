@@ -20,23 +20,20 @@ limitations under the License.
 
 /*==========Patterns Starts Here============*/
 .beauty {
-    background-color: #fff;
-    background-image: linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+    background: #fff linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
     linear-gradient(#eee .1em, transparent .1em);
     background-size: 100% 1.2em;
 }
 
 .badoo {
 
-    background-color: gray;
-    background-image: linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, .5) 50%);
+    background: gray linear-gradient(90deg, transparent 50%, rgba(255, 255, 255, .5) 50%);
     background-size: 50px 50px;
 }
 
 .badoo {
 
-    background-color: black;
-    background-image: linear-gradient(90deg, transparent 50%, rgba(275, 205, 251, .5) 50%);
+    background: black linear-gradient(90deg, transparent 50%, rgba(275, 205, 251, .5) 50%);
     background-size: 50px 50px;
 }
 
@@ -2681,5 +2678,3 @@ SKINS
 .pd100 {
     padding: 100px;
 }
-
-
