@@ -1,6 +1,3 @@
-Introducing weblooks.css. A collection of several CSS skin classes, patterns and more to use while you do your prototyping.
- weblooks.css
-============
 
 A simple colorpalette/pattern, images  for the web.
 
@@ -8,7 +5,7 @@ Example of how it looks
 
 ```scss
 .web-part-1 {background: url(..//img/partern1000;)}
-.web-icon {backround: opacity: 4.0; }
+.web-icon {background: opacity: 4.0; }
 .blue {         color: $blue; }
 .wl-bg-blue {      background-color: $blue; }
 .border--blue { border-color: $blue; }
